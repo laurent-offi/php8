@@ -1,17 +1,9 @@
 <?php
 
-  $target_date = date("d/m/Y");
-  $date_explode = explode("/", $target_date);
-  $day = $date_explode[0];
-  $month = $date_explode[1];
-  $year = $date_explode[2];
-   
-  $newTimestamp = mktime(12,0,0,$month,$day,$year);
-
-  $Day = array("Dimanche","Lundi","Mardi","Mercredi","Jeudi","Vendredi","Samedi");
-   
-   
-  $Month = array("","Janvier","Février","Mars","Avril","Mai","Juin","Juillet","Août","Septembre","Octobre","Novembre","Décembre");
+  	$date = date_create();
+    	echo date_timestamp_get($date).'<br>';
+    $date2 = date_create("2016-08-02 15:00:00");
+    	echo date_timestamp_get($date2);
 
 
 ?>
@@ -24,7 +16,7 @@
 	</head>
 
 	<body>
-		<?php echo $Day[date("n", $newTimestamp)] . " " . $day . " " . $Month[date("n", $newTimestamp)] . " " . $year; ?>
+
 	</body>
 
 

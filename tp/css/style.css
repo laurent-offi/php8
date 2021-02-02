@@ -1,0 +1,99 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #f3f3f3;
+}
+
+table {
+	width: 80%;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+	user-select: none;
+}
+
+.title {
+	text-align: center;
+	margin-bottom: 1rem;
+	font-size: 30px;
+	font-weight: 600;
+	user-select: none;
+}
+
+.head {
+	background-color: #fb7d7d;
+	border: 1px solid #fb7d7d;
+	user-select: none;
+}
+
+.case {
+	border: 1px solid #a1a1a1;
+	text-align: center;
+	background-color: white;
+}
+
+.case:hover {
+	background-color: #dadada;
+}
+
+
+
+.today {
+	background-color: #e4e4e4;
+}
+
+#content {
+	height: 80%;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.form {
+	width: 60%;
+	background-color: #ffffff;
+	padding: 1rem;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2%;
+	box-shadow: 0 0.25rem 2rem 0 rgba(133, 133, 133, 0.15);
+	border-radius: 10px;
+}
+
+.form label {
+	margin-bottom: 2%;
+}
+
+.form select {
+	width: 100%;
+	padding: 1rem;
+	margin-bottom: 1%;
+	outline: none;
+	border-radius: 10px;
+}
+
+button {
+	width: 25%;
+	padding: 1rem;
+    background: linear-gradient(45deg, #1da1f2, #0e71c8);
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	outline: none;
+}
+
+button:hover {
+	background: linear-gradient(45deg, #1992dd, #0c65b3);
+
+}
+
+select option {
+	border-radius: 10px;
+}
